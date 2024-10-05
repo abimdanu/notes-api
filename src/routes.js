@@ -25,7 +25,7 @@ const routes = [
   {
     method: 'GET',
     path: '/notes/{id}',
-    handler: getNoteByIdHandler
+    handler: getNoteByIdHandler,
   },
   {
     method: 'PUT',
